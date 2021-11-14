@@ -73,7 +73,7 @@ def masuk():
     if rom in(""):
     	print("%s [!] Isi yang benar kentod "%(M));exit()
     elif rom in ('1','01'):
-        jalan("\n%s [%s!%s] Wajib gunakan akun tumbal dilarang akun utama"%(P,M,P))
+        jalan("\n%s [%s!%s] input the token"%(P,M,P))
     	romz = raw_input('%s [?] Token : %s'%(P,K))
         if romz in(""):
         	print("%s [!] Isi yang benar kentod "%(M));exit()
@@ -101,7 +101,7 @@ def masuk():
         elif nanya in("y","Y"):
         	print ("\n%s [√] selamat anda pintar :* "%(H));jeda(2);masuk()
         elif nanya in("n","N"):
-        	print ("\n%s [!] anda sungguh tolol "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
+        	print ("\n%s [!] anda sungguh tolol "%(M));jeda(2);os.system("xdg-open https://www.facebook.itz.efk.3");masuk()
     elif rom in ('0', '00'):
     	exit('\n')
     else:
